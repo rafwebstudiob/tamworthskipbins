@@ -224,3 +224,34 @@ ol.steps{list-style:none;padding:0;margin:0 0 16px}
 /* site-specific */
 .photo-note{font-size:.8rem;color:var(--muted);margin-top:8px}
 .disclaimer{background:#fff8e6;border:1px solid #f0d58a;border-radius:var(--radius);padding:16px 18px;font-size:.95rem}
+
+/* seo-pages-v1 */
+.page-hero{background:var(--green);color:#fff;padding:34px 0 38px}
+.page-hero h1{color:#fff;margin-bottom:.4em}
+.page-hero .lead{color:#fff;font-size:1.12rem;max-width:44em;margin-bottom:.6em}
+.page-hero .updated{color:#e6f2ec;font-size:.9rem;margin:0}
+.crumbs{font-size:.9rem;margin-bottom:14px;color:#e6f2ec}
+.crumbs ol{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:6px}
+.crumbs li+li::before{content:"›";margin-right:6px;opacity:.8}
+.crumbs a{color:#fff}
+.page-grid{display:grid;gap:36px;padding-top:40px;padding-bottom:48px}
+@media(min-width:960px){.page-grid{grid-template-columns:minmax(0,1fr) 380px;align-items:start}.page-aside{position:sticky;top:84px}}
+.page-body h2{margin-top:1.4em;font-size:clamp(1.3rem,2.6vw,1.7rem)}
+.page-body h2:first-child{margin-top:0}
+.page-body figure{margin:0 0 1.4em}
+.page-body figure img{width:100%;height:auto;border-radius:var(--radius);display:block}
+.page-body figcaption{font-size:.85rem;color:var(--muted);margin-top:6px}
+.page-body table{width:100%;border-collapse:collapse;margin:0 0 1.2em}
+.page-body th,.page-body td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.page-body .callout{background:var(--soft);border-left:4px solid var(--green);padding:14px 16px;border-radius:8px;margin:0 0 1.2em}
+.page-body .sources{font-size:.88rem;color:var(--muted)}
+.link-list{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0;margin:0 0 1em}
+.link-list a{display:inline-block;background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 15px;text-decoration:none;font-weight:600}
+.link-list a:hover{border-color:var(--green)}
+.areas a{text-decoration:none;font-weight:600}
+.guide-cards{display:grid;gap:16px}
+@media(min-width:700px){.guide-cards{grid-template-columns:repeat(3,1fr)}}
+.guide-cards a{display:block;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px;text-decoration:none;color:var(--ink)}
+.guide-cards a strong{display:block;color:var(--green-2);font-size:1.08rem;margin-bottom:4px}
+.guide-cards a:hover{border-color:var(--green)}
+.footer-links{display:flex;flex-wrap:wrap;gap:6px 14px}
